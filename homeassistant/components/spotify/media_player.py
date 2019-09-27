@@ -56,7 +56,7 @@ PLAY_PLAYLIST_SCHEMA = vol.Schema(
 
 ICON = "mdi:spotify"
 
-SCAN_INTERVAL = timedelta(seconds=30)
+SCAN_INTERVAL = timedelta(seconds=1)
 
 SCOPE = "user-read-playback-state user-modify-playback-state user-read-private"
 
